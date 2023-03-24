@@ -1,0 +1,15 @@
+.companies {
+  background: linear-gradient(186.53deg, rgba(164, 200, 255, 0.04) 29.16%, rgba(164, 200, 255, 0) 155.19%);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(25px);
+  border-radius: 16px;
+  padding: 32px 74px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+
+  img {
+    height: 34px;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MON</title>
+
+    <link rel="stylesheet" href="./styles/index.scss">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__wrapper">
+            <a href="/" class="header__logo"></a>
+
+            <div class="header__nav">
+                <a href="" class="header__nav-link">Home</a>
+                <a href="" class="header__nav-link">Marketplace</a>
+                <a href="" class="header__nav-link">Lootboxes</a>
+                <a href="" class="header__nav-link">Monland</a>
+
+                <div class="header__dropdown">
+                    <div class="header__dropdown-activator">
+                        <span>Resources</span>
+
+                        <svg class="header__dropdown-activator-arrow" width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 4L4 1L7 4" stroke="#FCFCFD" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <div class="header__dropdown-content">
+                        <div class="header__dropdown-list">
+                            <a href="" class="header__dropdown-list-item">
+                                <span class="header__dropdown-list-item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 6.01349V8.81048V18C3 18.5523 3.44772 19 4 19L20.5263 19C20.7879 19 21 18.7879 21 18.5263V6.01349L12.4912 12.6315C12.2023 12.8562 11.7977 12.8562 11.5088 12.6315L3 6.01349ZM19.6969 5H4.30306L12 10.9865L19.6969 5Z" fill="#FCFCFD"/>
+                                    </svg>
+                                </span>
+
+                                <span class="header__dropdown-list-item-content">
+                                    <span class="header__dropdown-list-item-title">Help Center</span>
+                                    <span class="header__dropdown-list-item-description">Get the help you need</span>
+                                </span>
+                            </a>
+
+                            <a href="" class="header__dropdown-list-item">
+                                <span class="header__dropdown-list-item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" fill="#B1B5C3" stroke="#B1B5C3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.08984 9.00008C9.32495 8.33175 9.789 7.76819 10.3998 7.40921C11.0106 7.05024 11.7287 6.91902 12.427 7.03879C13.1253 7.15857 13.7587 7.52161 14.2149 8.06361C14.6712 8.60561 14.9209 9.2916 14.9198 10.0001C14.9198 12.0001 11.9198 13.0001 11.9198 13.0001" stroke="#23262F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 17H12.01" stroke="#23262F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+
+                                <span class="header__dropdown-list-item-content">
+                                    <span class="header__dropdown-list-item-title">FAQ</span>
+                                    <span class="header__dropdown-list-item-description">Find answers to common questions</span>
+                                </span>
+                            </a>
+
+                            <a href="" class="header__dropdown-list-item">
+                                <span class="header__dropdown-list-item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 4V20.5263C5 20.7879 5.21208 21 5.47368 21H18C18.5523 21 19 20.5523 19 20V7.64493C19 7.39907 18.9094 7.16183 18.7456 6.97852L15.4877 3.33359C15.298 3.12133 15.0268 3 14.7421 3H6C5.44772 3 5 3.44772 5 4Z" fill="#B1B5C3" stroke="#B1B5C3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <rect x="6" y="9" width="8" height="2" rx="1" fill="#23262F"/>
+                                        <rect x="6" y="13" width="11" height="2" rx="1" fill="#23262F"/>
+                                        <rect x="6" y="17" width="6" height="2" rx="1" fill="#23262F"/>
+                                    </svg>
+                                </span>
+
+                                <span class="header__dropdown-list-item-content">
+                                    <span class="header__dropdown-list-item-title">Docs</span>
+                                    <span class="header__dropdown-list-item-description">Dive into the technical side</span>
+                                </span>
+                            </a>
+
+                            <a href="" class="header__dropdown-list-item">
+                                <span class="header__dropdown-list-item-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3 15C3 14.4477 3.44772 14 4 14H6C6.55228 14 7 14.4477 7 15V22H3V15Z" fill="#B1B5C3"/>
+                                        <path d="M10 11C10 10.4477 10.4477 10 11 10H13C13.5523 10 14 10.4477 14 11V22H10V11Z" fill="#B1B5C3"/>
+                                        <path d="M17 3C17 2.44772 17.4477 2 18 2H20C20.5523 2 21 2.44772 21 3V22H17V3Z" fill="#B1B5C3"/>
+                                    </svg>
+                                </span>
+
+                                <span class="header__dropdown-list-item-content">
+                                    <span class="header__dropdown-list-item-title">Stats</span>
+                                    <span class="header__dropdown-list-item-description">Monitor metrics and data</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="toggle-theme" class="header__toggle-theme"></button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container main">
+    <div class="main__content">
+        <h1>Decentralised<br> Gaming Refined</h1>
+        <p>My Own NFT (MON) platform is designed to bring players and creators together as they discover, trade and build in the Web3 space</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="companies">
+        <img src="/src/images/companies/CoinGecko%20logo%201.png" alt="">
+        <img src="/src/images/companies/Frame.png" alt="">
+        <img src="/src/images/companies/Frame%201584.png" alt="">
+        <img src="/src/images/companies/Group%20471.png" alt="">
+        <img src="/src/images/companies/pinksale-logo-text-white%201.png" alt="">
+        <img src="/src/images/companies/solidity%201.png" alt="">
+    </div>
+</div>
+
+<div class="container">
+    <div class="cards">
+        <a href="" class="cards__item">
+            <img src="/src/images/cards/card1.jpg" alt="" class="cards__item-img">
+
+            <p class="cards__item-text">How to start developing your own metaverse project based on MON SDK</p>
+        </a>
+
+        <a href="" class="cards__item">
+            <img src="/src/images/cards/card2.jpg" alt="" class="cards__item-img">
+
+            <p class="cards__item-text">Millions of digital assets are changing the rule of game now. Create your</p>
+        </a>
+
+        <a href="" class="cards__item">
+            <img src="/src/images/cards/card3.jpg" alt="" class="cards__item-img">
+
+            <p class="cards__item-text">Revolutionary lootbox is here. How to make money on your NFT with lootbo</p>
+        </a>
+
+        <a href="" class="cards__item">
+            <img src="/src/images/cards/card4.jpg" alt="" class="cards__item-img">
+
+            <p class="cards__item-text">Start your road to the moon with Loki.  Earn, play and trade on MON marketp</p>
+        </a>
+    </div>
+</div>
+
+<script type="module" src="scripts/components/header.js"></script>
+</body>
+</html>

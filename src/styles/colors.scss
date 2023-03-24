@@ -1,0 +1,30 @@
+:root {
+  --main: #FCFCFD;
+  --secondary: #B1B5C3;
+  --titles: #777E90;
+  --devider: #353945;
+  --devider-hover: #23262F;
+  --background: #141416;
+
+  --header: rgba(20, 20, 22, 0.9);
+  --header-logo: url('/src/images/logo.png');
+  --header-toggler: url('/src/images/icons/moon.svg');
+  --header-dropdown: #1B1D22;
+  --header-border: #23262F;
+}
+
+.light {
+  --main: #141416;
+  --secondary: #777E90;
+  --titles: #B1B5C3;
+  --devider: #B1B4BA;
+  --devider-hover: #F4F5F6;
+  --background: #FCFCFD;
+  --additional-blue: #2955BF;
+
+  --header-background: var(--background);
+  --header-logo: url('/src/images/logo-light.png');
+  --header-toggler: url('/src/images/icons/sun.svg');
+  --header-dropdown: var(--background);
+  --header-border: #F4F5F6;
+}
